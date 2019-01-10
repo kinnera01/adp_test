@@ -1,8 +1,8 @@
 // let assert = require('assert');
-let expect = require("chai").expect;
-let request = require("request");
-let chai = require("chai");
-let chaiHttp = require("chai-http");
+var chai = require("chai");
+var expect = require("chai").expect;
+var request = require("request");
+var chaiHttp = require("chai-http");
 chai.use(chaiHttp);
 //test for getting data
 describe("Get Test", function() {
@@ -19,7 +19,7 @@ describe("Get Test", function() {
 });
 //test for posting data
 describe("Post Test", function() {
-  let data = {
+  var data = {
     id: 1234567834,
     result: 123333245
   };
